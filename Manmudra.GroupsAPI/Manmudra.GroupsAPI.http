@@ -1,6 +1,0 @@
-@Manmudra.GroupsAPI_HostAddress = http://localhost:5039
-
-GET {{Manmudra.GroupsAPI_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
