@@ -14,6 +14,7 @@ namespace Manmudra.GroupsAPI.Controllers
     {
         private readonly ManmudraContext dbContext = dbContext;
 
+        // Used for Internal Purpose to Test the Data
         [AllowAnonymous]
         [HttpPost("AddInitialData")]
         public async Task<ActionResult<ApiResponse<bool>>> AddInitialData()
